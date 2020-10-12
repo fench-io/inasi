@@ -1,0 +1,20 @@
+{
+  "name": "@fench-io/inasi",
+  "version": "0.1.2",
+  "description": "I Need A Smaller Image",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/fench-io/inasi",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "sharp": "^0.26.1"
+  },
+  "scripts": {
+    "test:watch": "nodemon test/test.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
