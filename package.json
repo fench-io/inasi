@@ -1,0 +1,25 @@
+{
+  "name": "@fench-io/inasi",
+  "version": "0.1.0",
+  "description": "I Need A Smaller Image",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/fench-io/inasi",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "sharp": "^0.26.1"
+  },
+  "scripts": {
+    "test:watch": "babel-watch test/test.js",
+    "build": "rimraf dist && babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-watch": "^7.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
